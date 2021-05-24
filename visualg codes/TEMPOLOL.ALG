@@ -11,19 +11,21 @@ hrs : real
 dia : real
 Inicio
 
-     nick <- "BananaEater"
-     min <- 5383
-     hrs <- min/60
-     dia <- min/1440
-
- escreval ("Insira um Nick: ",nick) //consult your nickname on wol.gg
+ escreva ("Insira um Nick: ") //consult your nickname on wol.gg
+ leia (nick)
+ 
+ escreval ("Insira os minutos jogados:")
+ leia (min)
+ 
+ hrs <- min/60
+ dia <- min/1440
+ 
+ escreval("Você ja gastou")
+ 
+ escreval (min," minutos ou")
     escreval
- escreval ("Voce ja gastou:")
+ escreval (hrs:9:3," horas ou")
     escreval
- escreval (" ",min," minutos ou")
-    escreval
- escreval (" ",hrs:9:3," horas ou")
-    escreval
- escreval (" ",dia:5:1, " dias no LoL!")
+ escreval (dia:5:1, " dias no LoL!")
 
 Fimalgoritmo
