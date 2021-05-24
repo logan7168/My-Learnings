@@ -14,26 +14,27 @@ hip : real
 
 Inicio
 
-     base <- 3
-     alt <-  5
+     
+
+     
+     
+   escreval ("Base do retÃ¢ngulo:")
+   leia (base)
+   
+   escreval ("Altura do retÃ¢ngulo:")
+   leia (alt)
+       escreval
      
      area <- base * alt
      per <- alt * 2 + base * 2
-     
+
      hip <- base^2 + alt^2
-     
+
      hip <- raizq(hip)
      
      
-   escreval ("Base do retângulo: ",base:99:2)
-   escreval ("Altura do retângulo: ", alt:99:2)
-     escreval
    escreval ("AREA = ",area:1:4)
-   escreval ("PERÍMETRO = ",per:1:4)
+   escreval ("PERÃMETRO = ",per:1:4)
    escreval ("DIAGONAL = ",hip:1:4)
-
-
-
-
 
 Fimalgoritmo
