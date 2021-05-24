@@ -16,19 +16,19 @@ Var
 
 Inicio
 
-         largura <- 12
-         comprimento <- 20
-         precom2 <- 150
-         
-         preco <- (largura*comprimento)*precom2
-         area <- largura*comprimento
-    escreval ("Digite a largura do terreno = ",largura:1:2)
-    escreval ("Digite o comprimento do terreno = ",comprimento:1:2)
-    escreval ("Digite o preço do m² = ",precom2:1:2)
-            escreval
+    escreval ("Digite a largura do terreno = ")
+    leia (largura)
+    
+    escreval ("Digite o comprimento do terreno = ")
+    leia (comprimento)
+    
+    escreval ("Digite o preÃ§o do mÂ² = ")
+    leia (precom2)
+    
+    preco <- (largura*comprimento)*precom2
+    area <- largura*comprimento
+
     escreval ("Area do terreno = ",area:1:2)
-    escreval ("Preço do terreno = ",preco:1:2)
-
-
+    escreval ("PreÃ§o do terreno = ",preco:1:2)
 
 Fimalgoritmo
