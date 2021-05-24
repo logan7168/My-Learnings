@@ -11,16 +11,19 @@ Var
 
 Inicio
 
-   nome <- "João Silva"
-   val <- 17
-   hr <- 8
+   escreva ("Nome: ")
+   leia (nome)
+
+   escreva ("Valor cobrado por hora: ")
+   leia (val)
+
+   escreva ("Horas trabalhadas por ",nome,": ")
+   leia (hr)
+   
+      escreval
    
    pag <- val*hr
    
-   escreval ("Nome: ",nome)
-   escreval ("Valor por hora: ",val:1:2)
-   escreval ("Horas trabalhadas por ",nome,":", hr)
-     escreval
    escreval ("O pagamento para ", nome ," deve ser = ", pag:1:2)
 
 
