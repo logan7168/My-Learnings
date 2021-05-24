@@ -17,30 +17,41 @@ Var
 
 Inicio
 
-    nome1 <- "Deiner
-       idade1 <- 59
-
-    nome2 <- "Jaqueline
-       idade2 <- 49
-
-    nome3 <- "João Pedro
-       idade3 <- 16
-
-    media <- (idade1 + idade2+idade3)/3
-    
     escreval ("Dados da primeiro pessoa:")
-    escreval ("Nome: ",nome1)
-    escreval ("Idade: ",idade1)
-     escreval
+      escreval
+      
+    escreva ("Nome: ")
+    leia(nome1)
+    
+    escreva ("Idade: ")
+    leia(idade1)
+    
+      escreval
+
     escreval ("Dados da segunda pessoa:")
-    escreval ("Nome: ",nome2)
-    escreval ("Idade: ",idade2)
-     escreval
+      escreval
+      
+    escreva ("Nome: ")
+    leia(nome2)
+    
+    escreva ("Idade: ")
+    leia(idade2)
+    
+      escreval
+    
     escreval ("Dados da terceira pessoa:")
-    escreval ("Nome: ",nome3)
-    escreval ("Idade: ",idade3)
-     escreval
-    escreval("A idade média de ",nome1,", ",nome2," e de ",nome3," é de ",media:1:1," anos!")
+      escreval
+      
+    escreva ("Nome: ")
+    leia(nome3)
+
+    escreva ("Idade: ")
+    leia(idade3)
+       
+    media <- (idade1 + idade2+idade3)/3
+
+      escreval
+    escreval("A idade mÃ©dia de ",nome1,", ",nome2," e de ",nome3," Ã© de ",media:1:1," anos!")
 
 
 
