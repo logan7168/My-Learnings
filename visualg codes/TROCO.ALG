@@ -14,20 +14,21 @@ var
 
 Inicio
 
-   prod <- 8
-   qtd <- 2
-   rec <- 20
 
-   pre <- prod*qtd
+   escreva ("PreÃ§o unitario: ")
+   leia (prod)
+
+   escreva ("Quantidade comprada: ")
+   leia (qtd)
+
+   escreva ("Dinheiro recebido: ")
+   leia (rec)
    
+   pre <- prod*qtd
    trc <- rec-pre
+   
+   escreval ("PREÃ‡O TOTAL = ",pre)
+   escreval ("TROCO = ",trc)
 
-
-
-   escreval ("Preço unitário do produto: ",prod:1:2)
-   escreval ("Quantidade comprada: ",qtd)
-   escreval ("Dinheiro recebido: ",rec:1:2)
-     escreval
-   escreval ("TROCO = ",trc:1:2)
 
 Fimalgoritmo
