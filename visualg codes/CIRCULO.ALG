@@ -14,7 +14,9 @@ Inicio
 
   a <- a = pi*r^2
 
-      escreval
-  escreval("AREA = ",a:1:3)
+  limpatela
+  
+  escreval("Raio do circulo: ",r:1:3)
+  escreva("AREA = ",a:1:3)
 
 Fimalgoritmo
