@@ -40,5 +40,7 @@ Inicio
    escreval ("REPROVADO")
 
      fimse
-
+//i made this exercise before watching the video about conditionals on the online course im taking
+//and i nailed it first try lol
+//im impressed with myself
 Fimalgoritmo
