@@ -12,11 +12,14 @@ Inicio
   leia (seg)
   
     escreval
-
+    limpatela
+    
   hr <- seg\3600
   min <- (seg%3600)\60
   seg1 <- ((seg%3600)%60)
   
-  escreval (hr,":",min,":",seg1)
+  escreval (seg," equivalem à:")
+    escreval
+  escreva (hr,":",min,":",seg1)
 
 Fimalgoritmo
