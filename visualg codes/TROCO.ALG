@@ -1,13 +1,13 @@
 Algoritmo "troco"
 //this code calculates the change of a purchase
-//  
+//
 
 var
 
     prod : real
     pre : real
     qtd : inteiro
-    
+
     rec : real
     trc : real
 
@@ -23,12 +23,14 @@ Inicio
 
    escreva ("Dinheiro recebido: ")
    leia (rec)
-   
+
+     limpatela
+
    pre <- prod*qtd
    trc <- rec-pre
-   
+
    escreval ("PREÇO TOTAL = ",pre)
-   escreval ("TROCO = ",trc)
+   escreva ("TROCO = ",trc)
 
 
 Fimalgoritmo
