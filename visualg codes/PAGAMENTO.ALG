@@ -21,9 +21,12 @@ Inicio
    leia (hr)
    
       escreval
+      
+      limpatela
    
    pag <- val*hr
    
+   escreval(nome," trabalhou ",hr," horas por $",val:1:2," hora")
    escreval ("O pagamento para ", nome ," deve ser = ", pag:1:2)
 
 

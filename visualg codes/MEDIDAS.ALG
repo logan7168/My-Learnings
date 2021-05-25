@@ -26,13 +26,18 @@ Inicio
   
     escreval
     
+    limpatela
+    
     qua <- a^2
     tri <- (a*b)/2
     tra <- ((a+b)*c)/2
-
+  escreval ("A = ",a:1:2)
+  escreval ("B = ",b:1:2)
+  escreval ("C = ",c:1:2)
+      escreval
   escreval ("AREA DO QUADRADO = ",qua:1:4)
   escreval ("AREA DO TRIANGULO = ",tri:1:4)
-  escreval ("AREA DO TRAPEZIO = ",tra:1:4)
+  escreva ("AREA DO TRAPEZIO = ",tra:1:4)
 
 
 Fimalgoritmo

@@ -49,7 +49,9 @@ Inicio
     leia(idade3)
        
     media <- (idade1 + idade2+idade3)/3
-
+       
+      limpatela
+           
       escreval
     escreval("A idade média de ",nome1,", ",nome2," e de ",nome3," é de ",media:1:1," anos!")
 
