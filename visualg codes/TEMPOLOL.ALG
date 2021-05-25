@@ -14,7 +14,7 @@ Inicio
  escreva ("Insira um Nick: ") //consult your nickname on wol.gg
  leia (nick)
  
- escreval ("Insira os minutos jogados:")
+ escreva ("Insira os minutos jogados:")
  leia (min)
  
  hrs <- min/60
