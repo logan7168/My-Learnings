@@ -10,31 +10,28 @@ alt : real
 area : real
 per : real
 
-hip : real
+diag : real
 
 Inicio
-
      
-
-     
-     
-   escreval ("Base do retângulo:")
+   escreva ("Base do retângulo:")
    leia (base)
    
-   escreval ("Altura do retângulo:")
+   escreva ("Altura do retângulo:")
    leia (alt)
        escreval
+       
+       limpatela
      
      area <- base * alt
      per <- alt * 2 + base * 2
 
-     hip <- base^2 + alt^2
-
-     hip <- raizq(hip)
-     
-     
+     diag <-raizq(base^2 + alt^2)
+   escreval ("Base: ",base:1:2)
+   escreval ("Alt: ",alt:1:2)
+     escreval
    escreval ("AREA = ",area:1:4)
    escreval ("PERÍMETRO = ",per:1:4)
-   escreval ("DIAGONAL = ",hip:1:4)
+   escreva ("DIAGONAL = ",diag:1:4)
 
 Fimalgoritmo
