@@ -30,14 +30,14 @@ Inicio
    trc <- rec-pre
    
    se (trc > 0) entao
-   escreval ("PREÇO TOTAL = ",pre)
-   escreva ("TROCO = ",trc)
+     escreval ("PREÇO TOTAL = ",pre)
+     escreva ("TROCO = ",trc)
    
    senao (trc < 0) entao
-   escreval ("PREÇO TOTAL = ",pre)
-   escreval ("TROCO = **ERRO**")
-     escreval
-   escreval ("  DINHEIRO INSUFICIENTE")
-   fimse
+     escreval ("PREÇO TOTAL = ",pre)
+     escreval ("TROCO = **ERRO**")
+       escreval
+     escreval ("  DINHEIRO INSUFICIENTE")
+  fimse
 
 Fimalgoritmo
