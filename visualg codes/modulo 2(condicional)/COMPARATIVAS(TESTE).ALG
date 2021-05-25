@@ -6,7 +6,7 @@ Var
 
   x: real
   
-  maior, igual, migual, dif:logico
+  maior, igual, menorigual, dif:logico
   
 Inicio
 
@@ -14,13 +14,7 @@ Inicio
   
   maior <- x>0
   igual <- x=3
-  migual <- 10<=10
+  menorigual <- 10<=10
   dif <- x<>2
-  
-  escreval (maior)
-  escreval (igual)
-  escreval (migual)
-  escreval (dif)
-
 
 Fimalgoritmo
