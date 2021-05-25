@@ -9,7 +9,9 @@ Inicio
 
   escreva ("De 100 a 0, o quao cheia esta a bateria? ")
   leia (bat)
-  
+
+     limpatela
+
   se (bat = 100) entao
       escreva ("Sua bateria esta totalmente carregada!")
   senao
@@ -45,5 +47,5 @@ Inicio
           fimse
       fimse
   fimse
-  
+
 Fimalgoritmo
