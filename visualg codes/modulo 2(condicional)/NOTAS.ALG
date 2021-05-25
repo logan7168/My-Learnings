@@ -22,25 +22,19 @@ Inicio
   fin <- nota1+nota2
   
   se fin>60 entao
-   escreval ("Nota do primeiro semestre: ",nota1:1:1)
-   escreval ("Nota do segundo semestre: ",nota2:1:1)
-     escreval
-   escreval ("NOTA FINAL = ",fin)
-     escreval
-   escreval ("APROVADO")
-
-     fimse
-     
-  se fin<60 entao
-   escreval ("Nota do primeiro semestre: ",nota1:1:1)
-   escreval ("Nota do segundo semestre: ",nota2:1:1)
-     escreval
-   escreval ("NOTA FINAL = ",fin)
-     escreval
-   escreval ("REPROVADO")
-
-     fimse
-//i made this exercise before watching the video about conditionals on the online course im taking
-//and i nailed it first try lol
-//im impressed with myself
+     escreval ("Nota do primeiro semestre: ",nota1:1:1)
+     escreval ("Nota do segundo semestre: ",nota2:1:1)
+       escreval
+     escreval ("NOTA FINAL = ",fin)
+       escreval
+     escreval ("APROVADO")
+  senao
+     escreval ("Nota do primeiro semestre: ",nota1:1:1)
+     escreval ("Nota do segundo semestre: ",nota2:1:1)
+       escreval
+     escreval ("NOTA FINAL = ",fin)
+       escreval
+     escreval ("REPROVADO")
+  fimse
+  
 Fimalgoritmo
