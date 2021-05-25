@@ -1,6 +1,7 @@
 Algoritmo "expressao 'e'(teste)"
 //code made to test the logic expression "E"
 //E sugest that all conditions in a sentence are true
+//"E" in portugol is the equivalent of "and" of other languages
 Var
 
    x: inteiro
