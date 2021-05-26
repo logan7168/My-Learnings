@@ -25,7 +25,7 @@ Inicio
    d <- nao ((x = 5) ou (x <> 5))
    
    why <- nao (((x = 5) e (x <> 3)) ou (x = 10))
-   //idfk why i did that last one but ok
+   //idk why i did that last one but ok
    //it is FALSE bc (x = 5) e (x <> 3) is true, then ((x = 5) e (x <> 3)) ou (x = 10) too
    //so "nao" will reverse it into FALSE
    
