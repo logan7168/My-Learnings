@@ -30,7 +30,7 @@ Inicio
                   por <- 10
               senao
                   se (sal > 8000) entao
-                      mult <1.05
+                      mult <- 1.05
                       por <- 5
                   fimse
               fimse
