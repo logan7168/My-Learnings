@@ -40,6 +40,6 @@ Inicio
   nov <- (sal * mult)
   aum <- (nov - sal)
   escreval ("Novo salario = ",nov:1:2)
-  escreval ("Aumento = ",aum:1:1)
+  escreval ("Aumento = ",aum:1:2)
   escreval ("Porcentagem = ",por,"%")
 Fimalgoritmo
