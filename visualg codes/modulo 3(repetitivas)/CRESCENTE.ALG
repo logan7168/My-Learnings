@@ -11,26 +11,18 @@ Inicio
   escreval ("Digite dois numeros: ")
   leia (x)
   leia (y)
-  se (x > y) entao
-     escreval ("DECRESCENTE!")
-  senao
-     se (x < y) entao
-        escreval ("CRESCENTE!")
-     fimse
-  fimse
   
   enquanto (x <> Y) faca
-     escreval ("Digite outros dois numeros: ")
-     leia (x)
-     leia (y)
+  
      se (x > y) entao
         escreval ("DECRESCENTE!")
      senao
-        se (x < y) entao
-           escreval ("CRESCENTE!")
-        senao
-           Fimalgoritmo
-        fimse
+        escreval ("CRESCENTE!")
      fimse
+     
+     escreval ("Digite outros dois numeros: ")
+     leia (x)
+     leia (y)
+
   fimenquanto
 Fimalgoritmo
