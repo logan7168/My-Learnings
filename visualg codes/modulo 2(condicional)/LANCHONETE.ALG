@@ -2,6 +2,8 @@ Algoritmo "lanchonete"
 //this code calculates the price of a purchase based on these prices: prnt.sc/13hqkmr
 //i also added the change calculation system
 //the exercise was not asking to do this but i wanted to
+//changelog: i changed it and added the "escolha" statament
+//it is the sama as "choose"
 
 Var
 
@@ -12,31 +14,23 @@ Inicio
 
   escreva ("Codigo do produto comprado: ")
   leia (cod)
-      se (cod = 1) entao
-          cod1 <- 5.00
-      senao
-          se (cod = 2) entao
-              cod1 <- 3.50
-          senao
-              se (cod = 3) entao
-                  cod1 <- 4.80
-              senao
-                  se (cod = 4) entao
-                      cod1 <- 8.90
-                  senao
-                      se (cod = 5) entao
-                          cod1 <- 7.32
-                      senao
-                          se (cod < 1) ou (cod > 5) entao
-                              escreva ("CODIGO INVALIDO, DIGITE UM CODIGO DE 1-5")
-                              Fimalgoritmo
-                          fimse
-                      fimse
-                  fimse
-              fimse
-          fimse
-      fimse
-      
+  
+  escolha cod
+  caso 1
+     cod1 <- 5.00
+  caso 2
+     cod1 <- 3.50
+  caso 3
+     cod1 <- 4.80
+  caso 4
+     cod1 <- 8.90
+  caso 5
+     cod1 <- 7.32
+  outrocaso
+     escreval ("CODIGO INVALIDO, DIGITE UM CODIGO DE 1-5")
+     Fimalgoritmo
+  fimescolha
+
   escreva ("Quantidade comprada: ")
   leia (qtd)
   pre <- (cod1 * qtd)
